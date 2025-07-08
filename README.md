@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 Next.js App Router + i18n Starter
 
-## Getting Started
+مشروع Next.js احترافي باستخدام **App Router** ويدعم **i18n** (التعدد اللغوي) لتوفير تجربة مستخدم متعددة اللغات بشكل سلس.
 
-First, run the development server:
+## 🚀 الميزات
 
+- ✅ مبني باستخدام [Next.js App Router](https://nextjs.org/docs/app)
+- 🌐 دعم متعدد اللغات باستخدام `next-intl`
+- ⚡️ تحسين SEO تلقائي للغات
+- 🧩 تنظيم واضح ومرن للملفات
+- 🎯 جاهز للنشر على Vercel
+
+## 📦 المتطلبات
+
+- Node.js 18 أو أحدث
+- Bun أو npm أو yarn
+
+## ⚙️ التثبيت
+
+### باستخدام bun
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun install
+```
+ 
+### باستخدام npm
+```bash
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ 
+ ### باستخدام yarn
+```bash
+yarn
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### التشغيل المحلي
+```bash
+bun dev
+# أو
+npm run dev
+# أو
+yarn dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+ 
+### بنيه المشروع
+```bash
+📁 app
+  └── 📁 [locale]
+      ├── globals.css
+      ├── layout.tsx
+      └── page.tsx
 
-## Learn More
+📁 i18n
+  ├── navigation.ts
+  ├── request.ts
+  └── routing.ts
 
-To learn more about Next.js, take a look at the following resources:
+📁 messages
+  ├── ar.json
+  └── en.json
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🧾 .gitignore
+🧾 bun.lock
+🧾 eslint.config.mjs
+🧾 middleware.ts
+🧾 next-env.d.ts
+🧾 next.config.ts
+🧾 package.json
+🧾 postcss.config.mjs
+🧾 README.md
+🧾 tsconfig.json
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+ 
+ ---
 
-## Deploy on Vercel
+## 👤 المطور
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- الاسم: **Mazen Mahmoud**
+- Discord: `mazinx` (ID: `618078478755037185`)
+- Username: `mz_n`
+- GitHub: [iimazin11](https://github.com/iimazin11)
+- رابط المشروع: [i18n-nextjs-15 على GitHub](https://github.com/iimazin11/i18n-nextjs-15)
