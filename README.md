@@ -1,49 +1,52 @@
 # 🌍 Next.js App Router + i18n Starter
 
-مشروع Next.js احترافي باستخدام **App Router** ويدعم **i18n** (التعدد اللغوي) لتوفير تجربة مستخدم متعددة اللغات بشكل سلس.
+A professional **Next.js** project built with the **App Router**, featuring seamless **internationalization (i18n)** support for multi-language user experiences.
 
-## 🚀 الميزات
+## 🚀 Features
 
-- ✅ مبني باستخدام [Next.js App Router](https://nextjs.org/docs/app)
-- 🌐 دعم متعدد اللغات باستخدام `next-intl`
-- ⚡️ تحسين SEO تلقائي للغات
-- 🧩 تنظيم واضح ومرن للملفات
-- 🎯 جاهز للنشر على Vercel
+* ✅ Built with [Next.js App Router](https://nextjs.org/docs/app)
+* 🌐 Multi-language support powered by `next-intl`
+* ⚡ Automatic SEO optimization per locale
+* 🧩 Clean and scalable project structure
+* 🎯 Ready for deployment on Vercel
 
-## 📦 المتطلبات
+## 📦 Requirements
 
-- Node.js 18 أو أحدث
-- Bun أو npm أو yarn
+* Node.js 18 or later
+* Bun, npm, or Yarn
 
-## ⚙️ التثبيت
+## ⚙️ Installation
 
-### باستخدام bun
+### Using Bun
+
 ```bash
 bun install
 ```
- 
-### باستخدام npm
+
+### Using npm
+
 ```bash
 npm install
 ```
 
- 
- ### باستخدام yarn
+### Using Yarn
+
 ```bash
 yarn
 ```
 
-### التشغيل المحلي
+## ▶️ Run Locally
+
 ```bash
 bun dev
-# أو
+# or
 npm run dev
-# أو
+# or
 yarn dev
-
 ```
- 
-### بنيه المشروع
+
+## 📁 Project Structure
+
 ```bash
 📁 app
   └── 📁 [locale]
@@ -70,15 +73,14 @@ yarn dev
 🧾 postcss.config.mjs
 🧾 README.md
 🧾 tsconfig.json
-
 ```
- 
- ---
 
-## 👤 المطور
+---
 
-- الاسم: **Mazen Mahmoud**
-- Discord: `mazinx` (ID: `618078478755037185`)
-- Username: `mz_n`
-- GitHub: [iimazin11](https://github.com/iimazin11)
-- رابط المشروع: [i18n-nextjs-15 على GitHub](https://github.com/iimazin11/i18n-nextjs-15)
+## 👤 Developer
+
+* Name: **Mazen Mahmoud**
+* Discord: `Rid` (ID: `276452420719083521`)
+* Username: `2r1d`
+* GitHub: [iimazin11](https://github.com/iimazin11)
+* Repository: [i18n-nextjs-15 on GitHub](https://github.com/iimazin11/i18n-nextjs-15)
